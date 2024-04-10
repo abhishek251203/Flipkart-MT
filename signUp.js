@@ -21,6 +21,6 @@ function Signup() {
     localStorage.setItem("usersdata", JSON.stringify(users));
 
     alert("Signup Successfull");
-    window.location.href = "signin.html";
+    window.location.href = "signIn.html";
   }
 }
