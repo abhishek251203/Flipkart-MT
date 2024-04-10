@@ -1,0 +1,288 @@
+#para1 {
+    border: 4px solid orange;
+  }
+  
+  nav {
+    background-color: white;
+  }
+  
+  .line {
+    width: 100%;
+    border: none;
+    border-top: 8px solid rgba(213, 207, 207, 0.617);
+  }
+
+  #nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    width: 90%;
+    margin: auto;
+  }
+  
+  #nav1 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  body {
+    background-color: #f1f2f4;
+  }
+  
+  #logo_name {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-style: italic;
+    color: #2a55e5;
+    font-weight: bold;
+  }
+  
+  #input_data {
+    border: none;
+    width: 500px;
+    height: 20px;
+    padding-left: 12px;
+    background-color: #f0f5ff;
+  }
+  
+  .navtab {
+    display: flex;
+    align-items: center;
+  }
+
+  .hoverNav:hover {
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  #searchbar {
+    background-color: #f0f5ff;
+    padding: 4px;
+    border-radius: 10px;
+  }
+  
+  option {
+    font-size: 15px;
+    font-family: sans-serif;
+  }
+  
+  select {
+    border: none;
+    font-size: 15px;
+    font-family: sans-serif;
+  }
+  
+  .belowNavBar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    padding-top: 15px;
+  }
+
+  .car:hover {
+    cursor: pointer;
+  }
+
+  .smallCard {
+    /* border: 2px solid red; */
+    width: 94px;
+    height: 112px; 
+    padding: 10px;
+    margin: 0px 20px;
+  }
+
+  .smallCard:hover {
+    scale: 1.1;
+    cursor: pointer;
+    p {
+      text-decoration: underline;
+    }
+  }
+  
+  .card {
+    height: 64px;
+    width: 64px;
+  }
+  
+  .smallCard p {
+    text-align: justify;
+    font-weight: 600;
+  }
+
+  .itemImg:hover {
+    cursor: pointer;
+    scale: 1.1;
+  }
+
+  .item:hover {
+    cursor: pointer;
+  }
+  
+  li {
+    list-style: none;
+  }
+
+  .viewAllButton {
+    border-radius: 5px;
+  }
+
+  .viewAllButton:hover {
+    background-color: black;
+    scale: 1.1;
+  }
+  
+  #footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 18px;
+    padding-top: 18px;
+  }
+  
+  .heading {
+    color: gray;
+  }
+
+  .itemSection {
+    max-width: 1434px;
+    height: 314px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .item {
+    width: 232px;
+    height: 314px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 40px;
+  }
+  
+  .itemImg {
+    height: 200px;
+  }
+  
+  .itemDescription {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .buyNowText {
+    color: #388e3c;
+    font-size: 16px;
+    text-align: center;
+    margin-top: -15px;
+  }
+  
+  .itemHeadName {
+    word-wrap: break-word;
+    font-size: 30px;
+    line-height: 1.38;
+    color: #2e2e2e;
+    text-align: center;
+  }
+  
+  .viewAllSection {
+    margin-top: 24px;
+    text-align: center;
+  }
+  
+  .viewAllButton {
+    background: #2874f0;
+    color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    border: none;
+    height: 38px;
+    padding-top: 12px;
+    width: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .viewAllText {
+    font-size: 13px;
+  }
+  
+  .line {
+    width: 100%;
+    border: none;
+    border-top: 8px solid rgba(213, 207, 207, 0.617);
+  }
+  
+  .footerSection {
+    max-width: 1719px;
+    /* height: 346px; */
+    height: 300px;
+    background-color: #172337;
+    display: flex;
+  }
+  
+  .footerLeft {
+    display: flex;
+    width: 50%;
+    margin-left: 65px;
+    justify-content: space-evenly;
+  }
+  
+  .footerInfo {
+    width: 252px;
+    height: 194px;
+    padding-top: 40px;
+  }
+  
+  .footerInfoHeading {
+    color: #878787;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 9px;
+  }
+  
+  .footerContent {
+    color: #ffffff;
+    font-size: 12px;
+  
+    line-height: 1;
+  }
+  
+  .footerRight {
+    display: flex;
+    width: 50%;
+    margin-right: 30px;
+    justify-content: space-evenly;
+    line-height: 1;
+  }
+
+  .footerContent p:hover {
+    text-decoration: underline;
+  }
+  
+  .footerExtras {
+    margin-top: 0.35px;
+    background-color: #172337;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 1719px;
+    height: 70px;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 1;
+    padding-left: 25px;
+    padding-right: 10px;
+  }
+
+  .footerExtras span:hover {
+    text-decoration: underline;
+  }
+  
+  

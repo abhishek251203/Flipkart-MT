@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Flipkart</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div id="nav">
+          <a href="/index.html" style="text-decoration: none">
+            <div id="nav1">
+              <span id="logo_name"> Flipkart </span>
+              <span
+                style="
+                  color: #9e9e9e;
+                  font-size: 12px;
+                  font-style: italic;
+                  font-family: sans-serif;
+                "
+              >
+                Explore
+                <span style="color: #ffc200"> Plus </span>
+                <img
+                  src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/plus-brand-bc165b.svg"
+                  alt="explore_button"
+                />
+              </span>
+            </div>
+          </a>
+          <div class="navtab" id="searchbar">
+            <span>
+              <svg
+                width="24"
+                height="24"
+                class=""
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>Search Icon</title>
+                <path
+                  d="M10.5 18C14.6421 18 18 14.6421 18 10.5C18 6.35786 14.6421 3 10.5 3C6.35786 3 3 6.35786 3 10.5C3 14.6421 6.35786 18 10.5 18Z"
+                  stroke="#717478"
+                  stroke-width="1.4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M16 16L21 21"
+                  stroke="#717478"
+                  stroke-width="1.4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </span>
+            <span>
+              <input
+                id="input_data"
+                type="text"
+                placeholder="Search for Products, Brands and More"
+              />
+            </span>
+          </div>
+          <div class="navtab">
+            <span>
+              <img
+                src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/Store-9eeae2.svg"
+                alt="become a seller"
+              />
+            </span>
+            <span
+              style="
+                font-size: 15px;
+                font-family: sans-serif;
+                padding-left: 12px;
+              "
+              class="hoverNav"
+              >Become a Seller</span
+            >
+          </div>
+          <div class="navtab">
+            <span>
+              <img
+                src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/profile-815786.svg"
+                alt="Sign in"
+              />
+            </span>
+            <span
+              style="
+                font-size: 15px;
+                font-family: sans-serif;
+                padding-left: 12px;
+              "
+            >
+              <select
+                name="forma"
+                onchange="location = this.value;"
+                class="hoverNav"
+              >
+                <option value="">Profile</option>
+                <option value="signup.html">Signup</option>
+                <option value="signin.html">Signin</option>
+              </select>
+            </span>
+          </div>
+          <div class="navtab">
+            <span>
+              <img
+                src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_cart-eed150.svg"
+                alt="become a seller"
+              />
+            </span>
+            <span
+              style="
+                font-size: 15px;
+                font-family: sans-serif;
+                padding-left: 12px;
+              "
+              class="hoverNav"
+              >Cart</span
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="line"></div>
+
+    <!-- below Navigation Bar -->
+    <!-------------- MENU BAR -------------->
+
+    <div class="belowNavBar">
+      <div class="smallCard">
+        <img src="./assets/menuIcon1.webp" alt="menuIcon1" class="card" />
+        <p>Grocery</p>
+      </div>
+
+      <div class="smallCard">
+        <img src="./assets/menuIcon2.webp" alt="menuIcon1" class="card" />
+        <p>Mobiles</p>
+      </div>
+
+      <div class="smallCard">
+        <img src="./assets/menuIcon3.webp" alt="menuIcon1" class="card" />
+        <p>Fashion</p>
+      </div>
+
+      <div class="smallCard">
+        <img src="./assets/menuIcon4.webp" alt="menuIcon1" class="card" />
+        <p>Laptops</p>
+      </div>
+
+      <div class="smallCard">
+        <img src="./assets/menuIcon8.webp" alt="menuIcon1" class="card" />
+        <p>Home</p>
+      </div>
+
+      <div class="smallCard">
+        <img src="./assets/menuIcon6.webp" alt="menuIcon1" class="card" />
+        <p>Electronic</p>
+      </div>
+
+      <div class="smallCard">
+        <img src="./assets/menuIcon7.webp" alt="menuIcon1" class="card" />
+        <p>Travel</p>
+      </div>
+
+      <div class="smallCard">
+        <img src="./assets/menuIcon8.webp" alt="menuIcon1" class="card" />
+        <p>Electronic</p>
+      </div>
+
+      <div class="smallCard">
+        <img src="./assets/menuIcon9.webp" alt="menuIcon1" class="card" />
+        <p>Toys</p>
+      </div>
+    </div>
+
+    <div class="line"></div>
+
+    <!-- It is a carousel -->
+    <div class="car">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="1000">
+            <img
+              src="./assets/carousel3.jpeg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img
+              src="./assets/carousel2.jpeg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img
+              src="./assets/carousel1.jpeg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="line"></div>
+
+    <!-- This is item section -->
+
+    <!-------------- ITEM SECTION -------------->
+    <div class="itemSection">
+      <div class="item">
+        <div class="itemHeadName">
+          <p>Get Set for Sports</p>
+        </div>
+
+        <div class="viewAllSection">
+          <div class="viewAllButton">
+            <p class="viewAllText">VIEW ALL</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="./assets/cloth1.webp" alt="cloth1" class="itemImg" />
+        <p class="itemDescription">Men's T-shirt</p>
+        <p class="buyNowText">Buy Now</p>
+      </div>
+
+      <div class="item">
+        <img src="./assets/cloth2.webp" alt="cloth2" class="itemImg" />
+        <p class="itemDescription">Jackets</p>
+        <p class="buyNowText">Buy Now</p>
+      </div>
+
+      <div class="item">
+        <img src="./assets/cloth3.webp" alt="cloth3" class="itemImg" />
+        <p class="itemDescription">Men's Trackshut</p>
+        <p class="buyNowText">Buy Now</p>
+      </div>
+
+      <div class="item">
+        <img src="./assets/cloth4.webp" alt="cloth4" class="itemImg" />
+        <p class="itemDescription">Jackets</p>
+        <p class="buyNowText">Buy Now</p>
+      </div>
+    </div>
+
+    <div class="line"></div>
+
+    <div class="itemSection">
+      <div class="item">
+        <div class="itemHeadName">
+          <p>Best of Electronics</p>
+        </div>
+
+        <div class="viewAllSection">
+          <div class="viewAllButton">
+            <p class="viewAllText">VIEW ALL</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <img
+          src="./assets/electronic1.webp"
+          alt="electronic img"
+          class="itemImg"
+        />
+        <p class="itemDescription">Men's T-shirt</p>
+        <p class="buyNowText">Buy Now</p>
+      </div>
+
+      <div class="item">
+        <img
+          src="./assets/electronic2.webp"
+          alt="electronic img"
+          class="itemImg"
+        />
+        <p class="itemDescription">Jackets</p>
+        <p class="buyNowText">Buy Now</p>
+      </div>
+
+      <div class="item">
+        <img
+          src="./assets/electronic3.webp"
+          alt="electronic img"
+          class="itemImg"
+        />
+        <p class="itemDescription">Men's Trackshut</p>
+        <p class="buyNowText">Buy Now</p>
+      </div>
+
+      <div class="item">
+        <img
+          src="./assets/electronic4.webp"
+          alt="electronic img"
+          class="itemImg"
+        />
+        <p class="itemDescription">Jackets</p>
+        <p class="buyNowText">Buy Now</p>
+      </div>
+    </div>
+
+    <div class="line"></div>
+
+    <div class="itemSection">
+      <div class="item">
+        <div class="itemHeadName">
+          <p>Fashion Top Deals</p>
+        </div>
+
+        <div class="viewAllSection">
+          <div class="viewAllButton">
+            <p class="viewAllText">VIEW ALL</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="./assets/fashion1.webp" alt="cloth1" class="itemImg" />
+        <p class="itemDescription">Lahenga Choli & Gown</p>
+        <p class="buyNowText">Buy Now</p>
+      </div>
+
+      <div class="item">
+        <img src="./assets/fashion2.webp" alt="cloth2" class="itemImg" />
+        <p class="itemDescription">Kurtas</p>
+        <p class="buyNowText">Buy Now</p>
+      </div>
+
+      <div class="item">
+        <img src="./assets/fashion3.webp" alt="cloth3" class="itemImg" />
+        <p class="itemDescription">Liwas</p>
+        <p class="buyNowText">Buy Now</p>
+      </div>
+
+      <div class="item">
+        <img src="./assets/fashion4.webp" alt="cloth4" class="itemImg" />
+        <p class="itemDescription">Kurta Set</p>
+        <p class="buyNowText">Buy Now</p>
+      </div>
+    </div>
+
+    <div class="line"></div>
+
+    <div class="itemSection">
+      <div class="item">
+        <div class="itemHeadName">
+          <p>Top Deals for Today</p>
+        </div>
+
+        <div class="viewAllSection">
+          <div class="viewAllButton">
+            <p class="viewAllText">VIEW ALL</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="./assets/topDeal1.webp" alt="topDeal" class="itemImg" />
+        <p class="itemDescription">Musical Instrument</p>
+        <p class="buyNowText">Buy Now</p>
+      </div>
+
+      <div class="item">
+        <img src="./assets/topDeal2.webp" alt="topDeal" class="itemImg" />
+        <p class="itemDescription">Smart Watches</p>
+        <p class="buyNowText">Buy Now</p>
+      </div>
+
+      <div class="item">
+        <img src="./assets/topDeal3.webp" alt="topDeal" class="itemImg" />
+        <p class="itemDescription">Umbrella</p>
+        <p class="buyNowText">Buy Now</p>
+      </div>
+
+      <div class="item">
+        <img src="./assets/topDeal4.webp" alt="topDeal" class="itemImg" />
+        <p class="itemDescription">Soft Toys</p>
+        <p class="buyNowText">Buy Now</p>
+      </div>
+    </div>
+
+    <!-- footer -->
+
+    <footer>
+      <div class="footerSection">
+        <div class="footerLeft">
+          <div class="footerInfo">
+            <p class="footerInfoHeading">ABOUT</p>
+            <div class="footerContent">
+              <p>Contact Us</p>
+              <p>About Us</p>
+              <p>Careers</p>
+              <p>Flipkart Stories</p>
+              <p>Press</p>
+              <p>Flipkart Wholesale</p>
+            </div>
+          </div>
+
+          <div class="footerInfo">
+            <p class="footerInfoHeading">HELP</p>
+            <div class="footerContent">
+              <p>Payments</p>
+              <p>Shipping</p>
+              <p>Cancellation & Returns</p>
+              <p>FAQ</p>
+              <p>Report Infringement</p>
+            </div>
+          </div>
+
+          <div class="footerInfo">
+            <p class="footerInfoHeading">CONSUMER POLICY</p>
+            <div class="footerContent">
+              <p>Cancellation & Returns</p>
+              <p>Terms Of Use</p>
+              <p>Security</p>
+              <p>Privacy</p>
+              <p>Sitemap</p>
+              <p>Grievance Redressal</p>
+            </div>
+          </div>
+
+          <div class="footerInfo">
+            <p class="footerInfoHeading">SOCIAL</p>
+            <div class="footerContent">
+              <p>Facebook</p>
+              <p>Twitter</p>
+              <p>YouTube</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="footerRight">
+          <div class="footerInfo">
+            <p class="footerInfoHeading">Mail Us:</p>
+            <div class="footerContent">
+              <p>Flipkart Internet Private Limited,</p>
+              <p>Buildings Alyssa, Begonia &</p>
+              <p>Clove Embassy Tech Village,</p>
+              <p>Outer Ring Road, Devarabeesanahalli Village,</p>
+              <p>Bengaluru, 560103,</p>
+              <p>Karnataka, India</p>
+            </div>
+          </div>
+
+          <div class="footerInfo">
+            <p class="footerInfoHeading">Registered Office Address:</p>
+            <div class="footerContent">
+              <p>Flipkart Internet Private Limited,</p>
+              <p>Buildings Alyssa, Begonia &</p>
+              <p>Clove Embassy Tech Village,</p>
+              <p>Outer Ring Road, Devarabeesanahalli Village,</p>
+              <p>Bengaluru, 560103,</p>
+              <p>Karnataka, India</p>
+              <p>CIN : U51109KA2012PTC066107</p>
+              <p>Telephone: 044-45614700</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footerExtras">
+        <span>Become a Seller</span>
+        <span>Advertise</span>
+        <span>Cards</span>
+        <span>Help Center</span>
+        <span>© 2007-2024 Flipkart.com</span>
+        <span
+          ><img src="./assets/payment-method.svg" alt="payment-method"
+        /></span>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
